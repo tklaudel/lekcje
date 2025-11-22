@@ -1,0 +1,13 @@
+{
+  "name": "playwright-capture",
+  "version": "1.0.0",
+  "description": "Script to capture screenshot and save as grayscale GIF",
+  "main": "capture.js",
+  "scripts": {
+    "start": "node capture.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "sharp": "^0.33.0"
+  }
+}

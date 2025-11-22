@@ -1,0 +1,10 @@
+node_modules/
+.env
+.DS_Store
+output.gif
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+debug_consent_error.png
+debug_consent_not_found.png

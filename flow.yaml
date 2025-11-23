@@ -1,0 +1,8 @@
+baseUrl: "https://eduvulcan.pl"
+login:
+  url: "/logowanie"
+  # accountName: "kid_name" # Optional: Select specific child account (can also be set via ACCOUNT_NAME env var)
+steps:
+  - name: "plan_zajec"
+    navigationSelector: "text=Plan zajęć"
+    screenshotSelector: "section.app_content"

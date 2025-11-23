@@ -76,5 +76,9 @@ To run this script on a local machine via GitHub Actions:
 The workflow is configured to run:
 - **Automatically**: Mon-Fri at 6:00 AM CET.
 - **Manually**: Go to **Actions** tab > **Run Playwright Script** > **Run workflow**.
+- **Via CLI**:
+  ```bash
+  gh workflow run run_script.yml
+  ```
 
 The generated GIF will be available as an artifact in the workflow run summary.
